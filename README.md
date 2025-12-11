@@ -201,5 +201,5 @@ For technical issues, contact: tech@tarsco.edu.gh
 
 ---
 
-**Last Updated**: November 2024
+**Last Updated**: December 2024
 **Version**: 1.0.0
