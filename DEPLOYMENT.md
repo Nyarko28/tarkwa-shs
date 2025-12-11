@@ -81,3 +81,4 @@ When ready to add a CMS or database:
 - Monitor security alerts: GitHub Security tab
 - Backup data: Regular database exports if using CMS
 - Content updates: Edit JSON files or CMS as needed
+by:emmanuelnyarko284@gmail.com
