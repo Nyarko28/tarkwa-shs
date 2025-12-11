@@ -3,11 +3,9 @@
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
   "installCommand": "npm install",
-  "env": {
-    "NEXT_PUBLIC_SITE_URL": {
-      "default": "https://tarsco.edu.gh"
-    }
-  },
+ "env": {
+    "NEXT_PUBLIC_SITE_URL": "https://tarsco.vercel.app"
+  } ,
   "regions": ["iad1", "sfo1"],
   "functions": {
     "api/**/*.ts": {
