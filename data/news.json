@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "TARSCO Wins Regional Science Olympiad",
+    "date": "2024-11-15",
+    "category": "Achievement",
+    "excerpt": "Our science team triumphed in the regional competition, showcasing excellence in innovation and research.",
+    "content": "Our dedicated science team participated in the Regional Science Olympiad and emerged victorious, demonstrating the caliber of our students and faculty.",
+    "author": "Mr. Kwesi Boateng",
+    "image": "/placeholder.svg?key=15"
+  },
+  {
+    "id": 2,
+    "title": "New Science Laboratory Inauguration",
+    "date": "2024-11-10",
+    "category": "Infrastructure",
+    "excerpt": "State-of-the-art laboratory facility officially opened to support advanced STEM learning.",
+    "content": "TARSCO inaugurated its new science laboratory with cutting-edge equipment to enhance hands-on learning in physics, chemistry, and biology.",
+    "author": "Dr. Kwame Asante",
+    "image": "/placeholder.svg?key=16"
+  },
+  {
+    "id": 3,
+    "title": "Annual Sports Day Celebrated",
+    "date": "2024-11-05",
+    "category": "Events",
+    "excerpt": "Students showcase athletic prowess in friendly competitions across multiple sports disciplines.",
+    "content": "The annual sports day brought together students across all classes for exciting competitions in athletics, football, basketball, and volleyball.",
+    "author": "Coach Ama Mensah",
+    "image": "/placeholder.svg?key=17"
+  }
+]

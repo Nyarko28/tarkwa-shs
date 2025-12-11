@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Kwame Asante",
+    "role": "Headmaster",
+    "department": "Administration",
+    "bio": "With over 20 years in education, Dr. Asante leads TARSCO with vision and dedication.",
+    "email": "kwame.asante@tarsco.edu.gh",
+    "image": "/placeholder.svg?key=11"
+  },
+  {
+    "id": 2,
+    "name": "Mrs. Abena Osei",
+    "role": "Vice Headmaster (Academics)",
+    "department": "Administration",
+    "bio": "An experienced educator focused on academic excellence and student development.",
+    "email": "abena.osei@tarsco.edu.gh",
+    "image": "/placeholder.svg?key=12"
+  },
+  {
+    "id": 3,
+    "name": "Mr. Yaw Mensah",
+    "role": "Vice Headmaster (Administration)",
+    "department": "Administration",
+    "bio": "Oversees operations and ensures smooth functioning of school facilities.",
+    "email": "yaw.mensah@tarsco.edu.gh",
+    "image": "/placeholder.svg?key=13"
+  },
+  {
+    "id": 4,
+    "name": "Mr. Kwesi Boateng",
+    "role": "Science Coordinator",
+    "department": "Academics",
+    "bio": "Leading the sciences department with innovative teaching methodologies.",
+    "email": "kwesi.boateng@tarsco.edu.gh",
+    "image": "/placeholder.svg?key=14"
+  }
+]

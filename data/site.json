@@ -1,0 +1,22 @@
+{
+  "name": "Tarkwa Senior High School",
+  "shortName": "TARSCO",
+  "founded": 1961,
+  "colors": {
+    "primary": "#006400",
+    "secondary": "#FFD700",
+    "accent": "#964B00",
+    "dark": "#111827",
+    "ivory": "#FFF7ED"
+  },
+  "contact": {
+    "phone": "+233 312 022551",
+    "email": "info@tarsco.edu.gh",
+    "address": "Tarkwa, Western Region, Ghana"
+  },
+  "social": {
+    "facebook": "https://facebook.com/tarsco",
+    "twitter": "https://twitter.com/tarsco",
+    "instagram": "https://instagram.com/tarsco_official"
+  }
+}

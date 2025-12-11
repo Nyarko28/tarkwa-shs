@@ -1,0 +1,32 @@
+{
+  "name": "Tarkwa Senior High School (TARSCO)",
+  "short_name": "TARSCO",
+  "description": "Premier secondary education institution in Ghana",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF7ED",
+  "theme_color": "#006400",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon-64.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "school"],
+  "lang": "en-GH"
+}

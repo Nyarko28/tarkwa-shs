@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "category": "Campus",
+    "title": "Main Building",
+    "description": "TARSCO's iconic main building",
+    "image": "/placeholder.svg?key=21"
+  },
+  {
+    "id": 2,
+    "category": "Sports",
+    "title": "Football Match",
+    "description": "Students in action during inter-house sports",
+    "image": "/placeholder.svg?key=22"
+  },
+  {
+    "id": 3,
+    "category": "Events",
+    "title": "Graduation Ceremony",
+    "description": "Celebration of student achievements",
+    "image": "/placeholder.svg?key=23"
+  },
+  {
+    "id": 4,
+    "category": "Campus",
+    "title": "Student Center",
+    "description": "Modern student recreational facility",
+    "image": "/placeholder.svg?key=24"
+  },
+  {
+    "id": 5,
+    "category": "Academics",
+    "title": "Science Lab",
+    "description": "State-of-the-art science laboratory",
+    "image": "/placeholder.svg?key=25"
+  },
+  {
+    "id": 6,
+    "category": "Sports",
+    "title": "Volleyball Tournament",
+    "description": "Exciting inter-school competition",
+    "image": "/placeholder.svg?key=26"
+  }
+]

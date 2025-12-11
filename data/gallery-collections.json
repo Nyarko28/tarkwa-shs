@@ -1,0 +1,81 @@
+[
+  {
+    "id": 1,
+    "name": "Founders Day 2024",
+    "description": "Celebrating TARSCO's legacy and tradition with students, staff, and alumni.",
+    "cover": "/placeholder.svg?height=400&width=600",
+    "imageCount": 50,
+    "videoCount": 3,
+    "date": "2024-03-17",
+    "category": "Special Events",
+    "featured": true,
+    "images": [
+      { "id": 1, "title": "Opening Ceremony", "src": "/placeholder.svg?height=500&width=700" },
+      { "id": 2, "title": "Flag Hoisting", "src": "/placeholder.svg?height=700&width=500" },
+      { "id": 3, "title": "Student March", "src": "/placeholder.svg?height=600&width=800" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Science & Technology Fair",
+    "description": "Showcasing innovative projects and scientific excellence from our students.",
+    "cover": "/placeholder.svg?height=400&width=600",
+    "imageCount": 35,
+    "videoCount": 3,
+    "date": "2024-02-14",
+    "category": "Academic Excellence",
+    "featured": true,
+    "images": [
+      { "id": 1, "title": "Robotics Project", "src": "/placeholder.svg?height=600&width=800" },
+      { "id": 2, "title": "Student Presenting", "src": "/placeholder.svg?height=500&width=700" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Inter-House Sports Competition",
+    "description": "Thrilling moments from our annual inter-house athletics championship.",
+    "cover": "/placeholder.svg?height=400&width=600",
+    "imageCount": 120,
+    "videoCount": 5,
+    "date": "2024-01-20",
+    "category": "Sports & Athletics",
+    "featured": false,
+    "images": []
+  },
+  {
+    "id": 4,
+    "name": "Our Beautiful Campus",
+    "description": "Experience the facilities and beauty of Tarkwa Senior High School.",
+    "cover": "/placeholder.svg?height=400&width=600",
+    "imageCount": 60,
+    "videoCount": 1,
+    "date": "2023-12-10",
+    "category": "Campus Life",
+    "featured": false,
+    "images": []
+  },
+  {
+    "id": 5,
+    "name": "Graduation Ceremony 2024",
+    "description": "Celebrating the achievements of our graduating class of 2024.",
+    "cover": "/placeholder.svg?height=400&width=600",
+    "imageCount": 200,
+    "videoCount": 10,
+    "date": "2024-07-06",
+    "category": "Graduation Ceremonies",
+    "featured": true,
+    "images": []
+  },
+  {
+    "id": 6,
+    "name": "Student Life & Activities",
+    "description": "Moments of joy, friendship, and growth in student life.",
+    "cover": "/placeholder.svg?height=400&width=600",
+    "imageCount": 150,
+    "videoCount": 0,
+    "date": "2024-03-01",
+    "category": "Campus Life",
+    "featured": false,
+    "images": []
+  }
+]
