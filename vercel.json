@@ -6,16 +6,10 @@
   "env": {
     "NEXT_PUBLIC_SITE_URL": "https://tarsco.vercel.app"
   },
-  "functions": {
-    "api/**/*.ts": {
-      "memory": 1024,
-      "maxDuration": 10
-    }
-  },
   "rewrites": [
     {
       "source": "/sitemap.xml",
-      "destination": "/api/sitemap"
+      "destination": "/sitemap"
     }
   ]
 }
