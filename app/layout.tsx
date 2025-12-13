@@ -87,7 +87,7 @@ export const metadata: Metadata = {
   },
   manifest: "/site.webmanifest",
   verification: {
-    google: "google-site-verification-code",
+    google: "google5a39e94e53c4c01f",
   },
   generator: 'v0.app',
   themeColor: "#006400",
