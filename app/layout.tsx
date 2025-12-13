@@ -1,6 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Inter, Playfair_Display, Poppins } from "next/font/google"
+import Script from "next/script"
 import { Analytics } from "@vercel/analytics/next"
 import BackToTop from "@/components/back-to-top"
 import "./globals.css"
@@ -88,7 +89,15 @@ export const metadata: Metadata = {
   verification: {
     google: "google-site-verification-code",
   },
-    generator: 'v0.app'
+  generator: 'v0.app',
+  themeColor: "#006400",
+}
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+  userScalable: true,
 }
 
 export default function RootLayout({
@@ -96,64 +105,66 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "@id": "https://tarsco.edu.gh/#organization",
+    name: "Tarkwa Senior High School",
+    alternateName: "TARSCO",
+    url: "https://tarsco.edu.gh",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://tarsco.edu.gh/images/0040904-crest.jpg",
+      width: 200,
+      height: 200,
+    },
+    image: "https://tarsco.edu.gh/og-image.jpg",
+    description:
+      "Premier secondary education institution in Ghana offering Business, General Arts, General Science, Home Economics, and Visual Arts programmes.",
+    foundingDate: "1961",
+    founder: {
+      "@type": "Organization",
+      name: "Education Trust Scheme, Ghana",
+    },
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Tarkwa",
+      addressLocality: "Tarkwa",
+      addressRegion: "Western Region",
+      addressCountry: "GH",
+    },
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+233-24-123-4567",
+      contactType: "Admissions",
+      email: "info@tarsco.edu.gh",
+      availableLanguage: ["English"],
+    },
+    sameAs: ["https://facebook.com/tarsco", "https://twitter.com/tarsco", "https://instagram.com/tarsco"],
+    areaServed: {
+      "@type": "Country",
+      name: "Ghana",
+    },
+    alumniOf: {
+      "@type": "EducationalOrganization",
+      name: "Tarkwa Senior High School Alumni Association",
+    },
+  }
+
   return (
     <html lang="en-GH">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <meta name="theme-color" content="#006400" />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "EducationalOrganization",
-              "@id": "https://tarsco.edu.gh/#organization",
-              name: "Tarkwa Senior High School",
-              alternateName: "TARSCO",
-              url: "https://tarsco.edu.gh",
-              logo: {
-                "@type": "ImageObject",
-                url: "https://tarsco.edu.gh/images/0040904-crest.jpg",
-                width: 200,
-                height: 200,
-              },
-              image: "https://tarsco.edu.gh/og-image.jpg",
-              description:
-                "Premier secondary education institution in Ghana offering Business, General Arts, General Science, Home Economics, and Visual Arts programmes.",
-              foundingDate: "1961",
-              founder: {
-                "@type": "Organization",
-                name: "Education Trust Scheme, Ghana",
-              },
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "Tarkwa",
-                addressLocality: "Tarkwa",
-                addressRegion: "Western Region",
-                addressCountry: "GH",
-              },
-              contactPoint: {
-                "@type": "ContactPoint",
-                telephone: "+233-24-123-4567",
-                contactType: "Admissions",
-                email: "info@tarsco.edu.gh",
-                availableLanguage: ["English"],
-              },
-              sameAs: ["https://facebook.com/tarsco", "https://twitter.com/tarsco", "https://instagram.com/tarsco"],
-              areaServed: {
-                "@type": "Country",
-                name: "Ghana",
-              },
-              alumniOf: {
-                "@type": "EducationalOrganization",
-                name: "Tarkwa Senior High School Alumni Association",
-              },
-            }),
-          }}
-        />
       </head>
       <body className={`${inter.variable} ${playfair.variable} ${poppins.variable} font-sans antialiased`}>
+        <Script
+          id="structured-data"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(structuredData),
+          }}
+        />
         {children}
         <Analytics />
         <BackToTop />
